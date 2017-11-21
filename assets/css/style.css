@@ -1,89 +1,102 @@
 body {
 
 	background-image:url(../images/dust_scratches.png);
-	
+	text-align: center;
 }
 
 header {
+
+	border: 1px solid blue;
+	width: 100%;
 	background: white;
-	height: 60px;
-	padding-top: 20px;
-	padding-left: 20px;
-	font-size: 35px;
-	margin-left: 50px;
+	height: 80px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.topnav a {
+	border: 1px solid blue;
+	display: block;
+	height: 50px;
+	width: 70px;
+	color: grey;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+	padding-top: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.topnav a:hover {
+	text-decoration: underline;
+}
+
+#about {
+	position: fixed;
+	top: 0px;
+	left: 660px;
+}
+
+#portfolio {
+	position: fixed;
+	top: 0px;
+	left: 760px;
+}
+
+#contact {
+	position: fixed;
+	top: 0px;
+	left: 860px;
 }
 
 .name {
+	border: 1px solid blue;
+	background-color: #4aaaa5;
+	color: white;
+	width: 200px;
+	height: 80px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 15px;
 
 }
 
-h1 {
-	color: #4aaaa5;
+#content {
+	border: 1px solid blue;
+	width: 960px;
 }
 
 .biopic {
+	border: 1px solid blue;
 	float: left;
 	margin-right: 20px;
 
 }
 
-.about {
+#about {
+	border: 1px solid blue;
+	background-color: white;
+	text-align: left;
+	float: left;
 	width: 650px;
-	background-color: white;
-	border-style: solid;
-		border-color: #4aaaa5;
-		border-width: 1px;
-	float: left;
-	padding-left: 20px;
-	padding-right: 5px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	margin-right: 10px;
-	margin-left: 50px;
+	padding: 20px;
+	margin: 20px;
 
 }
 
-.connect {
-	color: #4aaaa5;
+#connect {
+	border: 1px solid blue;
+	background-color: white;
+	float: left;
 	width: 270px;
-	height: 175px;
-	background-color: white;
-	border-style: solid;
-		border-color: #4aaaa5;
-		border-width: 1px;
-	float: left;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	
-}
-
-.button1 {
-	float: right;
-	background-color: Transparent;
-	cursor:pointer;
-	border:none;
-	outline:none;
-}
-
-.button2 {
-	float: right;
-	background-color: Transparent;
-	cursor:pointer;
-	border:none;
-	outline:none;
-}
-
-.button3 {
-	float: right;
-	background-color: Transparent;
-	cursor:pointer;
-	border:none;
-	outline:none;
+	padding: 20px;
+	margin: 20px;
 }
 
 .button4 {
+	border: 1px solid blue;
 	background-image:url(../images/github_logo.png);
 	background-size: contain;
 	cursor:pointer;
@@ -93,6 +106,7 @@ h1 {
 }
 
 .button5 {
+	border: 1px solid blue;
 	background-image:url(../images/linkedin_logo.png);
 	background-size: contain;
 	cursor:pointer;
@@ -102,6 +116,7 @@ h1 {
 }
 
 .button6 {
+	border: 1px solid blue;
 	background-image:url(../images/overflow_logo.png);
 	background-size: contain;
 	cursor:pointer;
@@ -111,15 +126,21 @@ h1 {
 }
 
 footer {
+	border: 1px solid blue;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
 	color: white;
 	text-align: center;
+	font-size: 13px;
 	background-color: #666666;
-	border-top: 10px solid #4aaaa5;
-	width: 960px;
-	position: absolute;
-    bottom: 0;
+	border-top: 8px solid #4aaaa5;
+	width: 100%;
+	height: 80px;
     padding-left: 20px;
 	padding-right: 20px;
-	margin-top: 20px;
+	padding-top: 20px;
+	margin-top: 15px;
+	margin-left: 0px;
 
 }
