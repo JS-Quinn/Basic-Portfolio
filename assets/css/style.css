@@ -2,6 +2,7 @@ body {
 
 	background-image:url(../images/dust_scratches.png);
 	text-align: center;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
 header {
@@ -31,6 +32,10 @@ header {
 
 .topnav a:hover {
 	text-decoration: underline;
+}
+
+.title {
+	font-family: Georgia, Times, Times New Roman, serif;
 }
 
 #about {
