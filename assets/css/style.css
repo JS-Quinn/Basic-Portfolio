@@ -176,24 +176,21 @@ input[type=submit]:hover {
 	background-color: red;
 }
 
-.rpg {
-	/*border: 1px solid blue;*/
-	background-color: green;
+.tilename {
+	font-family: Georgia, Times, Times New Roman, serif;
+	font-weight: bold;
+	background-color: #4aaaa5;
+	color: white;
+	height: 35px;
+	font-size: 25px;
+	position: relative;
+	text-align: center;
+	margin-top: -55px;
+	padding-top: 5px;
 }
 
-.trivia {
-	/*border: 1px solid blue;*/
-	background-color: pink;
-}
-
-.widget {
-	/*border: 1px solid blue;*/
-	background-color: black;
-}
-
-.rock {
-	/*border: 1px solid blue;*/
-	background-color: yellow;
+#RPS {
+	font-size: 18px;
 }
 
 .main-aside {
