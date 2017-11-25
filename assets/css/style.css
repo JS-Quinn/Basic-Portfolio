@@ -172,27 +172,27 @@ input[type=submit]:hover {
 }
 
 .hangman {
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	background-color: red;
 }
 
 .rpg {
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	background-color: green;
 }
 
 .trivia {
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	background-color: pink;
 }
 
 .widget {
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	background-color: black;
 }
 
 .rock {
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	background-color: yellow;
 }
 
