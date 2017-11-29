@@ -206,7 +206,7 @@ input[type=submit]:hover {
 .main-aside img {
 	height: 50px;
 	width: 50px;
-	/*border: 1px solid blue;*/
+	margin-top: 8px;
 }
 
 .main-aside a {
