@@ -206,6 +206,17 @@ input[type=submit]:hover {
 	margin-top: 0px;
 }
 
+.main-aside img {
+	height: 50px;
+	width: 50px;
+	/*border: 1px solid blue;*/
+}
+
+.main-aside a {
+	text-decoration: none;
+	margin: 5px;
+}
+
 .main-aside h3 {
 	color: #4aaaa5;
 	font-family: Georgia, Times, Times New Roman, serif;
